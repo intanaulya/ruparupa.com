@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Purchase before Login,Chrome 105.0.0.0,,,2022-09-19 12:09:49,2022-09-19 12:10:27,38.183s,PASSED
+,,,,,,,
+Test Cases/Purchase,Chrome 105.0.0.0,,,2022-09-19 12:09:49,2022-09-19 12:10:27,37.665s,PASSED
+"openBrowser("""")",Chrome 105.0.0.0,,,2022-09-19 12:09:50,2022-09-19 12:09:54,3.419s,PASSED
+"navigateToUrl(""https://www.ruparupa.com/"")",Chrome 105.0.0.0,browse web ruparupa.com ,,2022-09-19 12:09:54,2022-09-19 12:09:57,3.859s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Ruparupa  No.1 Home Living  Furniture _0f4397/div_Kategori""))",Chrome 105.0.0.0,Step 1 : tap button 'kategori',,2022-09-19 12:09:57,2022-09-19 12:09:58,0.880s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Ruparupa  No.1 Home Living  Furniture _0f4397/div_Rumah Tangga""))",Chrome 105.0.0.0,Step 2 : tap button 'rumah tangga',,2022-09-19 12:09:58,2022-09-19 12:10:02,3.496s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Jual Peralatan Rumah Tangga - Harga Te_ee196f/label_Buy 1 Get 1""))",Chrome 105.0.0.0,Step 3 : tap checkbox buy 1 get 1 on filter promo,,2022-09-19 12:10:02,2022-09-19 12:10:03,1.276s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Purchase/Page_Jual Peralatan Rumah Tangga - Harga Te_ee196f/select_Paling RelevanHarga TermurahHarga Te_ce4ccc""), ""newArrival"", true)",Chrome 105.0.0.0,Step 4 : choose 'produk terbaru' filter,,2022-09-19 12:10:03,2022-09-19 12:10:06,2.664s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Jual Peralatan Rumah Tangga - Harga Te_ee196f/img_Produk Pilihan Untuk Anda_shim lazyload_70f967""))",Chrome 105.0.0.0,Step 5 : choose first item on list,,2022-09-19 12:10:06,2022-09-19 12:10:09,3.653s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Jual Tatay Alat Pel Bergagang Hitam Kr_287390/button_OK""))",Chrome 105.0.0.0,tap button ok pop up,,2022-09-19 12:10:09,2022-09-19 12:10:11,1.231s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Jual Tatay Alat Pel Bergagang Hitam Kr_287390/button_Tambah ke keranjang""))",Chrome 105.0.0.0,Step 6 : tap button 'tambah ke keranjang',,2022-09-19 12:10:11,2022-09-19 12:10:12,1.608s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Jual Tatay Alat Pel Bergagang Hitam Kr_287390/button_Lanjut Ke Keranjang""))",Chrome 105.0.0.0,Step 7 : tap button 'lanjut ke keranjang',,2022-09-19 12:10:12,2022-09-19 12:10:17,4.510s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Ruparupa  No.1 Home Living  Furniture _0f4397/button_Lanjutkan ke Pembayaran""))",Chrome 105.0.0.0,Step 8 : tap button 'lanjut ke pembayaran',,2022-09-19 12:10:17,2022-09-19 12:10:17,0.551s,PASSED
+"setText(findTestObject(""Object Repository/Purchase/Page_Ruparupa.com Payment/input_Daftar_email""), ""test@gmail.com"")",Chrome 105.0.0.0,Step 9 : input email,,2022-09-19 12:10:17,2022-09-19 12:10:25,7.632s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Purchase/Page_Ruparupa.com Payment/input_Alamat email atau nomor telepon tidak_577a7d""), ""4kScvkzZepAC/SrB8nQUxQ=="")",Chrome 105.0.0.0,Step 9 : input password,,2022-09-19 12:10:25,2022-09-19 12:10:25,0.501s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Ruparupa.com Payment/button_Masuk""))",Chrome 105.0.0.0,Step 10 : tap button 'masuk',,2022-09-19 12:10:25,2022-09-19 12:10:26,0.524s,PASSED
+"click(findTestObject(""Object Repository/Purchase/Page_Ruparupa.com Payment/div_Alamat email atau nomor telepon dan pas_c22024""))",Chrome 105.0.0.0,Step 11 : close web,,2022-09-19 12:10:26,2022-09-19 12:10:27,1.181s,PASSED
